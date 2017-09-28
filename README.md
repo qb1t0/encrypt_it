@@ -1,13 +1,30 @@
 ## encrypt it
-Those repository is intended for creating webpage(API in the future), that will be encrypt(or decipher) your input inforamtion in(from) the most popular cipher's existing nowaday's. Also, you can found documentation for each crypting algorithms on it or, if u want decipher smth.
 
-Features:
-* Decoding
-* Mobile version supports
-* Includes the most popular cypher types(up to 20). 
-* File processing included 
-* Speed converting
+     Those repository is intended for creating webpage(API in the future), 
+      that will be encrypt(or decipher) your input inforamtion in(from) the most 
+      popular cipher's existing nowaday's. 
+     Also, you can found documentation for each crypting algorithms on it 
+      or, if u want decipher smth.
 
+        |>>>                 |>>>
+        |                    |
+        /\                   /\
+       /  \                 /  \
+      /    \               /    \
+     /      \             /      \
+    (________)           (________)       Project features:
+      |    |   ___   ___   |    | 
+      |  O |__|   |_|   |__| O  |         - Online decoding function
+      |    |   -  _^_      |    |         - Includes up to 20 cypher types
+      | -  |           _   |  - |         - Files processing included
+      |   _|     //|\\  -  |    |         - Speed converting
+      |    |    ///|\\\    |   -|         - Adaptive web design
+      | -  |_   |||||||    |    |         - Supports mobile version
+      |    |    |||||||    |-   |         - Statistical graphs and diagrams
+      |____|____|||||||____|____|
+               (      (
+                \      \
+                 )      )
                                                      |>>>
                                                      |
                                                  _  _|_  _
