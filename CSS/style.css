@@ -1,0 +1,45 @@
+body {
+	background-color: rgb(223,221,213);
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+#logo{
+	height: 100%;
+	padding-left: 2%;
+}
+header {
+	background-color: rgb(51,51,51);
+	color: white;
+	background:
+		-webkit-linear-gradient(top,rgb(55,55,55), rgb(40,40,40) 35%, rgb(40,40,40) 75%, rgb(55,55,55));
+	height: 10%;
+}
+
+
+article {
+	height: 85%;
+}
+.index_text {
+	position: relative;
+	top: 1em;
+	left: 33%;
+	right: 33%;
+	width: 34%;
+}
+#hidden{
+	color: black;
+	text-decoration: none;
+}
+.index_video {
+	position: relative;
+	left: 33%;
+	right: 33%;
+	top: 2.5em;
+	width: 34%;
+}
+
+footer {
+	text-align: right;
+	height: 5%;
+	font-size: 0.7em;
+}
