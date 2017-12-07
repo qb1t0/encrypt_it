@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/qb1t0/encrypt_it#readme",
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "gulp-jshint": "^2.0.4",
     "jshint": "^2.9.5",
     "rimraf": "^2.6.2"
