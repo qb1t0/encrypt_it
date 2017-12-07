@@ -5,24 +5,33 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
- 	<header>
- 			<div class = "hat">
- 				
- 			</div>
- 	</header>
+ 	<div class = "top_hat">
+		<a>Encrypt It</a>
+	</div>
  	<article>
- 		<div class="encrypt">
- 			<form id="input">
- 				<button id="upload">Upload</button>
- 				<select name="select" size="1">
- 					<option selected="" value="s1" >Encrypt</option>
- 					<option value="s2">Decrypt</option>
- 				</select>
- 				<br>
- 				<textarea> </textarea>
- 				<textarea readonly> </textarea>
- 			</form>
- 		</div>
+
+ 		<form id="input">
+ 			<button id="upload">Upload</button>
+ 			<select name="select" size="1">
+ 				<option selected="" value="s1" >Encrypt</option>
+ 				<option value="s2">Decrypt</option>
+ 			</select>
+ 			<select name="Algorythm" size="1">
+ 				<option selected="" value="s1" >3DES</option>
+ 				<option value="s2">AES</option>
+ 				<option value="s3" >Blowfish</option>
+ 				<option value="s4">Twofish</option>
+ 				<option value="s5" >IDEA</option>
+ 				<option value="s6">MD5</option>
+ 				<option value="s7" >SHA 1</option>
+ 				<option value="s8">HMAC</option>
+ 				<option value="s9" >RSA Security: RC4</option>
+ 			</select>
+ 			<br>
+ 			<textarea>Input</textarea>
+ 			<textarea readonly>Output</textarea>
+ 		</form>
+
  	</article>
  	<footer>
  		&copy !23.1415 2017

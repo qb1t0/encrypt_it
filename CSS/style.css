@@ -71,19 +71,22 @@ article {
 	color: black;
 	text-decoration: none;
 }
-.index_video {
-	right: 33%;
-	width: 34%;
-}
+
 #input {
-	position: relative;
-	left: 10%;
+	margin: auto;
+	margin-top: 40px;
+	width: 800px;
+	font-family: Roboto-Mono;
 }
 #input textarea {
 	resize: none;
-	width: 40%;
+	width: 45%;
 	height: 90%;
+	color: grey;
+	text-align: left;
 }
+
+
 iframe{
 	height: 600px;
 	width: 900px;
