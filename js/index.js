@@ -9,22 +9,22 @@
   });
 
   MESSAGES.push({
-    delay: 400,
+    delay: 0,
     text: "But now he’s subject to Harvard’s speech codes that prohibit any “disrespect for the dignity of others”; any violations will get him in trouble with Harvard’s Inquisition (the ‘Office for Equity, Diversity, and Inclusion’). "
   });
 
   MESSAGES.push({
-    delay: 600,
+    delay:0,
     text: "Newton also wants to publish Philosophiæ Naturalis Principia Mathematica, to explain the laws of motion governing the universe. But his literary agent explains that he can’t get a decent book deal until Newton builds his ‘author platform’ to include at least 20k Twitter followers – without provoking any backlash for airing his eccentric views on ancient Greek alchemy, Biblical cryptography, fiat currency, Jewish mysticism, or how to predict the exact date of the Apocalypse. "
   });
 
   MESSAGES.push({
-    delay: 800,
+    delay: 0,
     text: "Newton wouldn’t last long as a ‘public intellectual’ in modern American culture. Sooner or later, he would say ‘offensive’ things that get reported to Harvard and that get picked up by mainstream media as moral-outrage clickbait. His eccentric, ornery awkwardness would lead to swift expulsion from academia, social media, and publishing."
   });
 
   MESSAGES.push({
-    delay: 1200,
+    delay: 0,
     text: "Result? On the upside, he’d drive some traffic through Huffpost, Buzzfeed, and Jezebel, and people would have a fresh controversy to virtue-signal about on Facebook. On the downside, we wouldn’t have Newton’s Laws of Motion.”"
   });
 	
@@ -49,10 +49,10 @@
   scramble = function(element, text, options) {
     var $element, addGlitch, character, defaults, ghostCharacter, ghostCharacters, ghostLength, ghostText, ghosts, glitchCharacter, glitchCharacters, glitchIndex, glitchLength, glitchProbability, glitchText, glitches, i, j, k, letter, object, order, output, parameters, ref, results, settings, shuffle, target, textCharacters, textLength, wrap;
     defaults = {
-      probability: 0.2,
-      glitches: '!<>-_\\/[]{}—=+*^?#________',
+      probability: 0.3,
+      glitches: '!<>-_\\/[]{}—=+*^?#alskefb.adsc;waef__',
       blank: '',
-      duration: text.length * 20,
+      duration: text.length * 40,
       ease: 'easeInOutQuad',
       delay: 0.0
     };
