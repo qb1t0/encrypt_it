@@ -1,55 +1,100 @@
-body {
-	background-color: rgb(223,221,213);
-	font-family: Geneva, Arial, Helvetica, sans-serif;
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+@font-face {
+	font-family: DublonC;
+	src: url(fonts/dublonc.ttf);
 }
 
-#logo{
-	height: 100%;
-	padding-left: 2%;
+
+*{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
-header {
+
+body{
+	background-color: rgb(245, 247, 255);
+}
+
+.top_hat {
+	width: 100%;
+	height: 50px;
 	background-color: rgb(51,51,51);
 	color: white;
 	background:
 		-webkit-linear-gradient(top,rgb(55,55,55), rgb(40,40,40) 35%, rgb(40,40,40) 75%, rgb(55,55,55));
-	height: 10%;
+	text-align: center;
+	padding-top: 9px;
 }
 
+.top_hat a{
+	font-size: 36px;
+	font-family: DublonC;
+	font-style: normal;
+}
 
 article {
-	height: 85%;
+	height: 900px;
+	width: auto;
 }
 .index_text {
-	position: relative;
-	top: 1em;
-	left: 33%;
-	right: 33%;
-	width: 34%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	height: 10%;
+	width: 600px;
+	margin: auto;
+}
+.index_text>p{
+	width: auto;
+	height: 20px;
+}
+#message {
+	height: 270px;
+	width: 800px;
+	left: 50%;
+	top: 50%;
+	font-family: Roboto-Mono, monospace;
+	margin: auto;
+	margin-top: 40px;
+}
+#message p{
+	font-family: Roboto-Mono, monospace;
+	margin-left: auto;
+	text-align: left;
+}
+#message p:last-child{
+	text-align: right;
 }
 #hiddenlink{
 	color: black;
 	text-decoration: none;
 }
-.index_video {
-	position: relative;
-	left: 33%;
-	right: 33%;
-	top: 2.5em;
-	width: 34%;
-}
-.encrypt{
-
-}
 
 #input {
-	position: relative;
-	left: 10%;
+	margin: auto;
+	margin-top: 40px;
+	width: auto;
+	font-family: Roboto-Mono;
+	border: solid red;
 }
-
 #input textarea {
+	margin-left: 5%;
 	resize: none;
 	width: 40%;
-	height: 90%;
+	height: 50%;
+	color: grey;
+	text-align: left;
+	background-color: rgb(51,51,51);
+	border: solid red; 
+}
+
+iframe{
+	height: 600px;
+	width: 900px;
+	border-style: none;
+	margin-top: 0px;
 }
 
 footer {
@@ -57,3 +102,4 @@ footer {
 	height: 5%;
 	font-size: 0.7em;
 }
+
