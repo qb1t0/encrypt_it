@@ -77,17 +77,16 @@ article {
 	margin-top: 40px;
 	width: auto;
 	font-family: Roboto-Mono;
-	border: solid red;
 }
 #input textarea {
 	margin-left: 5%;
+	margin-right: 5%;
 	resize: none;
-	width: 40%;
+	width: 39%;
 	height: 50%;
 	color: grey;
 	text-align: left;
 	background-color: rgb(51,51,51);
-	border: solid red; 
 }
 
 iframe{
