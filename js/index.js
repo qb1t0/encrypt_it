@@ -1,3 +1,4 @@
+
 (function() {
   var $animate, $container, $message, $paragraph, MESSAGES, animate, initialise, scramble;
 
@@ -160,4 +161,6 @@
 
   initialise();
 
-}).call(this);
+}).call(this); 
+
+//Typing text effect
