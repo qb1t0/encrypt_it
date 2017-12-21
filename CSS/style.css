@@ -104,10 +104,10 @@ iframe{
 	padding-top: 11%
 }
 
-#input1 textarea:focus {
+/* #input1 textarea:focus {
 	font-size: 1.1em;
 	color: rgb(245, 247, 255);
-}
+} */
 
 footer {
 	text-align: right;
@@ -123,9 +123,9 @@ footer {
   position: absolute;
   top: 45%;
   left: 50%;
-  margin-left: -27px;
+  margin-left: -100px;
   margin-top: -25px;
-  width: 50px;
+  width: 200px;
   height: 50px;
   box-shadow: inset -7px 0px 12px -8px rgba(0, 0, 0, 0.3), inset 7px 0px 12px -8px rgba(0, 0, 0, 0.3);
   background: rgba(51, 51, 51, 0.3);
