@@ -1,0 +1,68 @@
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\ApplicationInsights.config
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\csc.exe
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\System.Collections.Immutable.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\vbc.exe
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\VBCSCompiler.exe
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\roslyn\VBCSCompiler.exe.config
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\encrypt_IT.dll.config
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\encrypt_IT.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\encrypt_IT.pdb
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Web.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.WindowsServer.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.ApplicationInsights.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Web.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.AI.WindowsServer.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.ApplicationInsights.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.csprojResolveAssemblyReference.cache
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.dll
+c:\users\супер\documents\visual studio 2015\Projects\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.pdb
+I:\Codes\encrypt_IT\encrypt_IT\bin\ApplicationInsights.config
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\csc.exe
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\System.Collections.Immutable.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\System.Reflection.Metadata.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\vbc.exe
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\VBCSCompiler.exe
+I:\Codes\encrypt_IT\encrypt_IT\bin\roslyn\VBCSCompiler.exe.config
+I:\Codes\encrypt_IT\encrypt_IT\bin\encrypt_IT.dll.config
+I:\Codes\encrypt_IT\encrypt_IT\bin\encrypt_IT.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\encrypt_IT.pdb
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Agent.Intercept.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.DependencyCollector.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Web.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.WindowsServer.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.ApplicationInsights.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.DependencyCollector.xml
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.Web.xml
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.AI.WindowsServer.xml
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.ApplicationInsights.xml
+I:\Codes\encrypt_IT\encrypt_IT\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\Codes\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.csprojResolveAssemblyReference.cache
+I:\Codes\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.dll
+I:\Codes\encrypt_IT\encrypt_IT\obj\Debug\encrypt_IT.pdb
+I:\Codes\encrypt_IT\encrypt_IT\bin\MySql.Data.dll
+I:\Codes\encrypt_IT\encrypt_IT\bin\MySql.Data.xml
