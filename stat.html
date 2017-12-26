@@ -38,7 +38,8 @@
         var options = {title:'Encrypt',
                        width:450,
                        height:300,
-                   	   backgroundColor: ['f5f7ff']};
+                   	   backgroundColor: ['f5f7ff'],
+                   		is3D: true,};
 
         // Instantiate and draw the chart for Sarah's pizza.
         var chart = new google.visualization.PieChart(document.getElementById('encrypt_div'));
@@ -68,7 +69,9 @@
         var options = {title:'Decrypt',
                        width:450,
                        height:300,
-                       backgroundColor: ['f5f7ff']};
+                       backgroundColor: ['f5f7ff'],
+                   	   is3D: true,
+                   		};
 
         // Instantiate and draw the chart for Anthony's pizza.
         var chart = new google.visualization.PieChart(document.getElementById('decrypt_div'));
@@ -89,8 +92,9 @@
         <td><div id="encrypt_div" style=""></div></td>
         <td><div id="decrypt_div" style=""></div></td>
       </tr>
+     
     </table>
-
+    <a href="Encrypt.html">Get back to encrypting/decrypting stuff</a>
  	</article>
  	<footer>
  		&copy !23.1415 2017

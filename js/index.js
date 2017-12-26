@@ -24,9 +24,16 @@
     text: "Newton wouldn’t last long as a ‘public intellectual’ in modern American culture. Sooner or later, he would say ‘offensive’ things that get reported to Harvard and that get picked up by mainstream media as moral-outrage clickbait. His eccentric, ornery awkwardness would lead to swift expulsion from academia, social media, and publishing."
   });
 
+
+
   MESSAGES.push({
     delay: 0,
-    text: "Result? On the upside, he’d drive some traffic through Huffpost, Buzzfeed, and Jezebel, and people would have a fresh controversy to virtue-signal about on Facebook. On the downside, we wouldn’t have Newton’s Laws of Motion.”"
+    text: "Result?"
+  });
+
+  MESSAGES.push({
+    delay: 0,
+    text: "On the upside, he’d drive some traffic through Huffpost, Buzzfeed, and Jezebel, and people would have a fresh controversy to virtue-signal about on Facebook. On the downside, we wouldn’t have Newton’s Laws of Motion.”"
   });
 	
   MESSAGES.push({
