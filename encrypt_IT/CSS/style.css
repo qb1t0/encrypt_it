@@ -86,7 +86,7 @@ iframe{
 #input1 {
 	margin-top: 40px;
 	width: auto;
-    height: 786px;
+    height: 1060px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -127,7 +127,7 @@ footer {
   -webkit-font-smoothing: antialiased;
   position: absolute;
   top: 50%;
-  left: 42%;
+  left: 45%;
   margin-left: -27px;
   margin-top: -25px;
   width: 164px;
@@ -171,7 +171,7 @@ footer {
 }
 
 .top {
-  top: 4%;
+  top: 6%;
   left: -2px;
 }
 

@@ -111,9 +111,10 @@ namespace encrypt_IT
             }
             else
             {
-                string message = "smth is wrong with ur file to upload!!!!";
+                //string message = "smth is wrong with ur file to upload!!!!";
 
-                outputToInputTextArea(message);
+                //outputToInputTextArea(message);
+                ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", "alert('file has not found')", true);
             }
         }
 

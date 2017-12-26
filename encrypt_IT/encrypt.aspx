@@ -46,11 +46,12 @@
  			</select>
  			<br>
              <asp:Button ID="showStatsBtn" Text="Web page uses" OnClick="statsRedirect" runat="server"/>
- 		</form>
- 	</article>
         
  	<footer>
  		&copy !23.1415 2017
  	</footer>
-</body>
+ 		</form>
+ 	</article>
+        
+ 	</body>
 </html>
