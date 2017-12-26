@@ -37,7 +37,7 @@
   });
 	
   MESSAGES.push({
-    delay: 1400,
+    delay: 4000,
     text: "― Geoffrey Miller"
   });
 
@@ -54,13 +54,15 @@
 
   $paragraph = null;
 
+  $link = null;
+
   scramble = function(element, text, options) {
     var $element, addGlitch, character, defaults, ghostCharacter, ghostCharacters, ghostLength, ghostText, ghosts, glitchCharacter, glitchCharacters, glitchIndex, glitchLength, glitchProbability, glitchText, glitches, i, j, k, letter, object, order, output, parameters, ref, results, settings, shuffle, target, textCharacters, textLength, wrap;
     defaults = {
       probability: 0.3,
       glitches: '!<>-_\\/[]{}—=+*^?#alskefb.adsc;waef__',
       blank: '',
-      duration: text.length * 40,
+      duration: text.length * 8,
       ease: 'easeInOutQuad',
       delay: 0.0
     };
@@ -158,11 +160,15 @@
   initialise = function() {
     var index, j, len, text;
     $animate.click(animate);
-    for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) {
+    for (index = j = 0, len = MESSAGES.length; j < len; index = ++j) 
+    {
       text = MESSAGES[index];
-      $message.append("<p>");
+      // if (j !== 2)
+        $message.append("<p>");
+
     }
     $paragraph = $container.find("p");
+    // link = $container.find("a");
     animate();
   };
 
