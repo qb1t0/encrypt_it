@@ -214,3 +214,8 @@ footer {
   left: 52%;
 }
 
+.columns {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
