@@ -7,4 +7,4 @@ solution: encrypt_IT.sln
 script:
  
   - dotnet restore
-  - dotnet build -c Release
+  - xbuild .encrypt_IT.sln
