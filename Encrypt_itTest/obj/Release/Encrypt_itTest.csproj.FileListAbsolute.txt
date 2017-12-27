@@ -1,0 +1,6 @@
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\bin\Release\Encrypt_itTest.dll
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\bin\Release\Encrypt_itTest.pdb
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\bin\Release\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\obj\Release\Encrypt_itTest.csprojResolveAssemblyReference.cache
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\obj\Release\Encrypt_itTest.dll
+C:\Users\Супер\Desktop\encrypt_it\Encrypt_itTest\obj\Release\Encrypt_itTest.pdb

@@ -1,0 +1,221 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+
+@font-face {
+	font-family: DublonC;
+	src: url(fonts/dublonc.ttf);
+}
+@font-face {
+	font-family: Alien;
+	src: url(fonts/Alien.otf);
+}
+
+
+*{
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-color: rgb(245, 247, 255);
+	min-width: 900px;
+}
+
+.top_hat {
+	width: 100%;
+	height: 50px;
+	background-color: rgb(51,51,51);
+	color: white;
+	background:
+		-webkit-linear-gradient(top,rgb(55,55,55), rgb(40,40,40) 35%, rgb(40,40,40) 75%, rgb(55,55,55));
+	text-align: center;
+	padding-top: 9px;
+}
+
+.top_hat a{
+	font-size: 36px;
+	font-family: DublonC;
+	font-style: normal;
+}
+
+article {
+	height: 650px;
+	width: auto;
+}
+.index_text {
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	height: 10%;
+	width: 600px;
+	margin: auto;
+}
+.index_text>p{
+	width: auto;
+	height: 20px;
+}
+#message {
+	height: 40%;
+	width: 800px;
+	left: 50%;
+	top: 50%;
+	font-family: Roboto-Mono, monospace;
+	margin: auto;
+	margin-top: 40px;
+}
+#message p{
+	font-family: Roboto-Mono, monospace;
+	margin-left: auto;
+	text-align: left;
+}
+#message p:last-child{
+	text-align: right;
+}
+#hiddenlink{
+	color: black;
+	text-decoration: none;
+}
+iframe{
+	height: 600px;
+	width: 900px;
+	border-style: none;
+	margin-top: 0px;
+}
+
+#input1 {
+	margin-top: 40px;
+	width: auto;
+    height: 1060px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+#input1 textarea {
+	margin-left: 1%;
+	margin-right: 1%;
+	resize: none;
+	width: 45%;
+	height: 68%;
+	color: grey;
+	text-align: center;
+	font-size: 5em;
+	font-family: alien;
+	background-color: rgb(51,51,51);
+	border-radius: 5px;
+	padding-top: 11%;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+#input1 textarea:focus {
+	font-size: 1.1em;
+	color: rgb(245, 247, 255);
+}
+
+footer {
+	text-align: right;
+	height: 21px;
+	font-size: 0.7em;
+}
+
+
+
+.trapdoor {
+  -webkit-transform: translateZ(0px);
+  -webkit-font-smoothing: antialiased;
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  margin-left: -27px;
+  margin-top: -25px;
+  width: 164px;
+  height: 50px;
+  box-shadow: inset -7px 0px 12px -8px rgba(0, 0, 0, 0.3), inset 7px 0px 12px -8px rgba(0, 0, 0, 0.3);
+  -webkit-transition: background 400ms ease-in-out;
+  -moz-transition: background 400ms ease-in-out;
+  -ms-transition: background 400ms ease-in-out;
+  -o-transition: background 400ms ease-in-out;
+  transition: background 400ms ease-in-out;
+}
+
+.trapdoor:hover {
+  background: #fff;
+}
+
+.trapdoor:hover .door {
+  box-shadow: 0px 0px 10px -2px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.08);
+  -moz-transform: scale(1.08);
+  -ms-transform: scale(1.08);
+  -o-transform: scale(1.08);
+  transform: scale(1.08);
+}
+
+.trapdoor:hover .top {
+  top: -50%;
+}
+
+.trapdoor:hover .bottom {
+  top: 100%;
+}
+
+.trapdoor .twitter-follow-button {
+	/* margin-left: -77px; */
+	position: relative !important;
+	/* margin-top: -14px; */
+	/* left: 50%; */
+	top: 56%;
+    left: 11px;
+}
+
+.top {
+  top: 6%;
+  left: -2px;
+}
+
+.top:before {
+  top: 5px;
+}
+
+.bottom {
+  top: 58%;
+  left: -2px;
+}
+
+.bottom:before {
+  top: -20px;
+}
+
+.door {
+  -webkit-transition: top 400ms, box-shadow 200ms, -webkit-transform 300ms;
+  -moz-transition: top 400ms, box-shadow 200ms, -moz-transform 300ms;
+  -ms-transition: top 400ms, box-shadow 200ms, -ms-transform 300ms;
+  -o-transition: top 400ms, box-shadow 200ms, -o-transform 300ms;
+  transition: top 400ms, box-shadow 200ms, transform 300ms;
+  -webkit-transition-timing-function: ease-in-out;
+  -moz-transition-timing-function: ease-in-out;
+  -ms-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  background-color: rgb(51,51,51);
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  z-index: 2;
+  height: 50%;
+}
+
+.door:before {
+  position: absolute;
+  margin-left: -20px;
+  font-size: 35px;
+  display: block;
+  color: #4099FF;
+  content: "🔐";
+  width: 0px;
+  height: 20px;
+  left: 52%;
+}
+
