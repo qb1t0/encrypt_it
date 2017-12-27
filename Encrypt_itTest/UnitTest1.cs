@@ -22,7 +22,7 @@ namespace Encrypt_itTest
         }
 
         [TestMethod]
-        public void DatabaseTestMethod()
+        public void CustomerClassTest()
         {
             Customer c0 = new Customer(0, 0, 0);
             Customer c1 = new Customer(1, 1, 1);
@@ -32,6 +32,20 @@ namespace Encrypt_itTest
             Assert.AreEqual("3DES", c1.caseMethod());
             Assert.AreEqual("IDEA", c5.caseMethod());
 
+        }
+
+        [TestMethod]
+        public void connectionToDBTest()
+        {
+            MySql.Data.MySqlClient.MySqlConnection conn;
+            MySql.Data.MySqlClient.MySqlCommand cmd;
+            string queryStr;
+            string connString = "server=127.0.0.1 ;user id=encryptuser; password=encrypt2017; database=encryptdb; ";
+
+            conn = new MySql.Data.MySqlClient.MySqlConnection(connString);
+            conn.Open();
+            Assert.AreEqual(true, conn.Ping());
+            conn.Close();
         }
     }
 }
