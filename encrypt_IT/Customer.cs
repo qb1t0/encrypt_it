@@ -34,9 +34,9 @@ namespace encrypt_IT
             }
         }
 
-        private string caseMethod(int method)
+        public string caseMethod()
         {
-            switch (method)
+            switch (this.choosenmethod)
             {
                 case 1: return "3DES";
                 case 2: return "AES";
