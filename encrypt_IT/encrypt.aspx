@@ -44,6 +44,8 @@
  				<option value="s8">HMAC</option>
  				<option value="s9" >RSA Security: RC4</option>
  			</select>
+             <input type="text" placeholder="key" />
+             <input type="button" name="generate" value="generate" />
  			<br>
             
         
