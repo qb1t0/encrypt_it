@@ -3,8 +3,3 @@ dist: trusty
 sudo: required
 mono: none
 dotnet: 2.0.0
-solution: encrypt_IT.sln
-script:
- 
-  - dotnet restore
-  - xbuild .encrypt_IT.sln
