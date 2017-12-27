@@ -71,7 +71,7 @@ namespace encrypt_IT
   //       providername="MySql.Hata.MySqlClient"/>
   //</connectionstrings>
 
-        static int caseMethod(string s)
+        public static int caseMethod(string s)
         {
             switch (s)
             {
