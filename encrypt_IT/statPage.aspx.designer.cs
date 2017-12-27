@@ -13,48 +13,21 @@ namespace encrypt_IT {
     public partial class statPage {
         
         /// <summary>
-        /// form1 control.
+        /// input1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlForm input1;
         
         /// <summary>
-        /// statusTextBox control.
+        /// ValueHiddenField control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox statusTextBox;
-        
-        /// <summary>
-        /// Chart1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart1;
-        
-        /// <summary>
-        /// Chart2 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.DataVisualization.Charting.Chart Chart2;
-        
-        /// <summary>
-        /// returnBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Button returnBtn;
+        protected global::System.Web.UI.WebControls.HiddenField ValueHiddenField;
     }
 }

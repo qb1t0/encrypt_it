@@ -45,10 +45,10 @@
  				<option value="s9" >RSA Security: RC4</option>
  			</select>
  			<br>
-             <asp:Button ID="showStatsBtn" Text="Web page uses" OnClick="statsRedirect" runat="server"/>
+            
         
  	<footer>
- 		&copy !23.1415 2017
+ 		&copy !23.1415 2017 <a href="statPage.aspx" runat="server">stats</a>
  	</footer>
  		</form>
  	</article>

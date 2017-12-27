@@ -96,6 +96,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="js\design.js" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -113,12 +114,14 @@
     <Content Include="encrypt.aspx" />
     <Content Include="encryptCs.aspx" />
     <Content Include="index.aspx" />
-    <Content Include="js\FExample.js" />
     <Content Include="js\index.js" />
+    <Content Include="Readme.txt" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="statPage.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Customer.cs" />

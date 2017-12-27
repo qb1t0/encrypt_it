@@ -6,6 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.DataVisualization.Charting;
 using System.Web.UI.WebControls;
+using System.Threading;
 
 namespace encrypt_IT
 {
@@ -46,16 +47,17 @@ namespace encrypt_IT
 
                 }
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                statusTextBox.Text = ex.ToString();
+
                 return;
             }
             conn.Close();
 
-            statusTextBox.Text = "data has been received from db";
+
             generateTables();
-            drawCharts();
+            string s = drawCharts();
+            ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "alertMessage", @"draw(" + "'"+s+"'" + ");", true);
         }
 
         protected void returnRedirect(object sender, EventArgs e)
@@ -81,76 +83,25 @@ namespace encrypt_IT
             }
         }
 
-        protected void drawCharts()
+        protected string drawCharts()
         {
-           int [] yVal = encTable;
-            string[] xName = { "3DES", "AES", "Blowfish", "Twofish", "IDEA", "MD5", "SHA 1", "HMAC", "RSA Security: RC4" };
+            string s = "";
 
-            //CREATE THE CHART
-            // Don't need to create the chart because it's a control!
+            foreach (var o in encTable)
+            {
+                s += o.ToString() + "|";
+            }
 
-            //BIND THE DATA TO THE CHART
-            Chart1.Series.Add(new Series());
-            Chart1.Series[0].Points.DataBindXY(xName, yVal);
-
-            //SET THE CHART TYPE TO BE PIE
-            Chart1.Series[0].ChartType = System.Web.UI.DataVisualization.Charting.SeriesChartType.Pie;
-            Chart1.Series[0]["PieLabelStyle"] = "Outside";
-            Chart1.Series[0]["PieStartAngle"] = "-90";
-
-            //SET THE COLOR PALETTE FOR THE CHART TO BE A PRESET OF NONE 
-            //DEFINE OUR OWN COLOR PALETTE FOR THE CHART 
-            Chart1.Palette = System.Web.UI.DataVisualization.Charting.ChartColorPalette.None;
-            Chart1.PaletteCustomColors = new Color[] { Color.Blue, Color.Red ,Color.Green, Color.Gold, Color.Fuchsia, Color.Khaki, Color.LightCoral, Color.Magenta, Color.MistyRose };
-
-            //SET THE IMAGE OUTPUT TYPE TO BE JPEG
-            Chart1.ImageType = System.Web.UI.DataVisualization.Charting.ChartImageType.Jpeg;
-
-            //ADD A PLACE HOLDER CHART AREA TO THE CHART
-            //SET THE CHART AREA TO BE 3D
-            Chart1.ChartAreas.Add(new ChartArea());
-            Chart1.ChartAreas[0].Area3DStyle.Enable3D = true;
-
-            //ADD A PLACE HOLDER LEGEND TO THE CHART
-            //DISABLE THE LEGEND
-            Chart1.Legends.Add(new Legend());
-            Chart1.Legends[0].Enabled = false;
+            foreach (var o in decTable)
+            {
+                s += o.ToString() + "|";
+            }
+            return s;
 
 
-            ///////////////////////////////////////////////
 
-            yVal = decTable;
-            
 
-            //CREATE THE CHART
-            // Don't need to create the chart because it's a control!
 
-            //BIND THE DATA TO THE CHART
-            Chart2.Series.Add(new Series());
-            Chart2.Series[0].Points.DataBindXY(xName, yVal);
-                 
-            //SET2THE CHART TYPE TO BE PIE
-            Chart2.Series[0].ChartType = System.Web.UI.DataVisualization.Charting.SeriesChartType.Pie;
-            Chart2.Series[0]["PieLabelStyle"] = "Outside";
-            Chart2.Series[0]["PieStartAngle"] = "-90";
-                 
-            //SET2THE COLOR PALETTE FOR THE CHART TO BE A PRESET OF NONE 
-            //DEF2NE OUR OWN COLOR PALETTE FOR THE CHART 
-            Chart2.Palette = System.Web.UI.DataVisualization.Charting.ChartColorPalette.None;
-            Chart2.PaletteCustomColors = new Color[] { Color.Blue, Color.Red, Color.Green, Color.Gold, Color.Fuchsia, Color.Khaki, Color.LightCoral, Color.Magenta, Color.MistyRose };
-                 
-            //SET2THE IMAGE OUTPUT TYPE TO BE JPEG
-            Chart2.ImageType = System.Web.UI.DataVisualization.Charting.ChartImageType.Jpeg;
-                 
-            //ADD2A PLACE HOLDER CHART AREA TO THE CHART
-            //SET2THE CHART AREA TO BE 3D
-            Chart2.ChartAreas.Add(new ChartArea());
-            Chart2.ChartAreas[0].Area3DStyle.Enable3D = true;
-                 
-            //ADD2A PLACE HOLDER LEGEND TO THE CHART
-            //DIS2BLE THE LEGEND
-            Chart2.Legends.Add(new Legend());
-            Chart2.Legends[0].Enabled = false;
         }
 
         protected void Chart1_Load(object sender, EventArgs e)
