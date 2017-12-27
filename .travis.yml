@@ -1,6 +1,6 @@
+language: csharp
 dist: trusty
 sudo: required
-language: csharp
 mono: none
 dotnet: 2.0.0
 solution: encrypt_IT.sln
